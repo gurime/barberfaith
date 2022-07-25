@@ -1,0 +1,67 @@
+.contact-bg-nav{
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("../../assets/img/bg-barber.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    height:7rem;margin-bottom:2rem}
+    
+    .navlinks a{color:#fff}
+    
+    .logo a{color:#000}
+    
+    
+    .contact-section{
+    display:grid;place-items:center}
+    
+    .contact-address{
+    color:#b19249;
+    text-align: center;
+    font-size:clamp(1.5rem,5vw,1rem);margin-bottom:2rem}
+    
+    .contact-box{
+    margin:auto;width:34rem}
+
+    .contact-headline-text{
+        text-align: center;
+    }
+    
+    form{
+    display:grid;
+    place-content: center;
+    padding:2px}
+    
+    form input{
+    height:46px;
+    margin-bottom:24px}
+    
+    form label{
+    color:#5a471d;
+    line-height:40px}
+    
+    p a{
+    color:#fff;
+    text-decoration:none}
+    
+    .contact-btn{
+    border-width:0;
+    background:linear-gradient(90deg,#74722a 0,#ac9e23 100%);
+    width:211px;
+    height:64px;
+    text-align:center;
+    font-size:24px;
+    outline:0;
+    cursor:pointer;
+    margin:3rem auto}
+    
+    .contact-btn a{
+    color:#fff;
+    text-decoration:none;
+    letter-spacing:3px}
+    
+    
+    
+    @media(max-width:768px){
+        .contact-address{font-size:17px!important}}
+    
+    @media(max-width:375px){
+        .contact-box{width:21rem}}

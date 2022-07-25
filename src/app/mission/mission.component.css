@@ -1,0 +1,31 @@
+.bg-slum{
+    background: linear-gradient(rgba(0,0,0,.5),#44442d80),url("../../assets/img/bg-slum.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    width: 100%;
+    }
+    .header{
+        color: #fff;
+        letter-spacing: 2px;
+        }
+
+.donate-btn{
+    display:grid;
+    margin:auto;
+    place-items:center;
+    place-content:center;
+    border-width:0;
+    background-color:transparent;
+    padding:1rem;
+    text-align:center;
+    color:#aa9055;
+    font-size:24px;
+    border:solid #aa9055 1px;
+    cursor:pointer;
+    width:50%;
+    transition:.3s}
+    
+    .donate-btn:hover{
+    background-color:#aa9055;
+    color:#fff}

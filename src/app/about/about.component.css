@@ -1,0 +1,67 @@
+.about-bg-nav{
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("../../assets/img/bg-barber.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    height:7rem;margin-bottom:2rem}
+    
+    .navlinks a{color:#fff}
+    
+    .barber-about{width:100%}
+    
+    .poverty-about{width:100%}
+    
+    .barber-flex{
+    display:flex;
+    place-content:center}
+    
+    .barber-img-flex{
+    height:140px;
+    width:140px;
+    margin:0 20px;
+    border-radius:50%}
+    
+    .about-section{
+    display:grid;
+    place-items:center;
+    width:clamp(45ch,50%,46ch);
+    margin:2rem auto}
+    
+    .about-section p{
+    text-align:center;
+    color:#33280f;
+    letter-spacing:2px;
+    line-height:35px}
+    
+    .about-headline-text{
+    font-size:clamp(1.5rem,5vw,3rem);
+    text-align: center;
+    color:#aa9055}
+    
+    .barber-container{
+    width:100rem;margin:auto}
+    
+    .poverty-container{width:100rem;margin:auto}
+    
+    
+    
+    
+    @media(max-width:1368px){
+    .barber-container{
+    width:auto!important}
+    .poverty-container{width:auto!important}}
+    
+    
+    @media(max-width:768px){
+    .barber-flex{flex-direction:column;
+    place-items:center}
+    
+    .barber-img-flex{
+        margin: 20px 0;
+    }
+
+    .about-section{
+        font-size: 13px;
+    }
+    }
+    

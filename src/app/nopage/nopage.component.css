@@ -1,0 +1,45 @@
+
+    video {
+        object-fit: cover;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+      }
+
+button{
+    background-color: #3740b9;
+    border: none;
+    padding: 1.3rem;
+    right: 46%;
+    width: 10%;
+    color: #fff;
+    position: absolute;
+    top: 10%;
+    z-index: 1;
+}
+
+@media(max-width:768px){
+    button{
+        width: 30%;
+        right: 37%;
+    }
+
+    video{
+        right: 0;
+        height: 50vh;
+    }
+}
+@media(max-width:820px){
+    button{
+        width: 30%;
+        right: 37%;
+        top: 1%;
+    }
+
+video{
+    height: 40vh;
+}
+}
+
