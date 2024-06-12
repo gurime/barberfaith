@@ -31,7 +31,7 @@
                 
     .logo img{
     height: 30px;
-    Transform: translateY(3px);
+    transform: translateY(3px);
     }
 
     @media(max-width:768px){
